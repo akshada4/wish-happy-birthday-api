@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -15,7 +16,13 @@
     "multer": "^1.4.3",
     "twilio": "^3.67.2"
   },
-  "engines": {
-    "node": "10.19.0"
-  }
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshada4/wish-happy-birthday-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akshada4/wish-happy-birthday-api/issues"
+  },
+  "homepage": "https://github.com/akshada4/wish-happy-birthday-api#readme"
 }
