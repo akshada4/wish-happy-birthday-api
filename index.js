@@ -27,7 +27,7 @@ const sendMessage = (req,res,next) => {
 	next();
 }
 
-
+app.get("/", (req,res) => res.status(200).send())
 app.post("/", upload.none(), sendMessage, (req,res) => res.status(200).send())
 
 const port = process.env.PORT || 8000;
